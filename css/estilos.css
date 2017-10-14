@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav1{
+	margin: 0%;
+	padding: 0%;
+}
+
+#yu, #fa,#ins,#pint,#tw{
+	margin-top: 30%;
+	
+}
+
+#fa{
+	color: darkblue;
+}
+
+#yu{
+	color: palevioletred;
+}
+
+#pint{
+	color: red;
+}
+
+#tw{
+	color: deepskyblue;
+}
+
+#ins{
+	color: darkblue;
+}
+
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+@media screen and (min-width:901px){
+
+	#pictbeat{
+		width: 45%;
+		margin-top: 2%;
+		padding: 5% 0% 0% 1%;
+	}
+
+	#pictaba{
+		width: 40%;
+		padding: 0% 1% 0% 0%;
+		margin-top: 1%;
+	}
+	
+	#navcont{
+		margin: 0%;
+		padding: 0%;
+	}
+	
+	#nav2{
+		background-color: coral;
+	}
+}
+
+
+	
+@media screen and (max-width: 900px){
+	
+	#pictbeat{
+		width: 100%;
+		padding: 0% 0% 2% 0%;
+		margin-bottom: 5%;
+	}
+
+	#pictaba{
+		width: 100%;
+		padding: 0% 1% 0% 0%;
+	}
+	
+		#navcont{
+		margin: 0%;
+		padding: 0%;
+	}
+	
+	#nav2{
+		background-color: coral;
+	}
+}
+
